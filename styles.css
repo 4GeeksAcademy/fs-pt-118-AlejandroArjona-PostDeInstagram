@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: black;
+
+  article {
+    background-color: white;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+}
+
+.post-header {
+  display: flex;
+  padding: 0.7em;
+
+  .fa-brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    margin-right: 0.2em;
+
+  }
+}
+
+.Rigoberto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 18em;
+
+
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 1.7em;
+  }
+
+}
+
+.fa-solid {
+  font-size: 2rem;
+
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+.post-body {
+  display: block;
+  width: 25.6em;
+  height: auto;
+  padding: 0.7em;
+
+  p:nth-child(2) {
+    margin: 1em 0.2em;
+  }
+
+  p:nth-child(3) {
+    margin: 0 0.2em 0.2em;
+  }
+
+}
+
+.iconos {
+  display: flex;
+  font-size: 1.3em;
+
+  * {
+    margin: 0 0.2em;
+  }
+
+  .fa-paper-plane {
+    flex-grow: 1;
+  }
+}
